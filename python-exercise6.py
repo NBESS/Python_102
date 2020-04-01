@@ -5,7 +5,7 @@ temp_in_c = int(input('Temperature in C? '))
 
 
 # Convert to fahrenhit
-temp_in_f = (temp_in_c * (5/9)) + 32
+temp_in_f = (temp_in_c * 5/9) + 32
 
 message = f'{temp_in_f} F'
 
