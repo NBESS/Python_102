@@ -5,6 +5,10 @@
 day = int(input('Day (0-6)? '))
 
 # Output if user should Go to work or sleep in
+if day == 0 or day == 6:
+    print('Sleep in')
+else:
+    print('Go to work')
 
 
 
