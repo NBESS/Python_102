@@ -10,3 +10,4 @@ temp_in_f = (temp_in_c * (5/9)) + 32
 message = f'{temp_in_f} F'
 
 # Output in fahrenheit
+print(message)
